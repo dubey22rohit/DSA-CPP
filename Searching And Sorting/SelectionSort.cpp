@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+//Time Complexity: O(n2)
 
 void selectionSort(int a[],int n){
 		for(int i = 0;i<n-1;i++){

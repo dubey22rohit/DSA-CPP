@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+//Time Complexity: O(n*2)
 void insertionSort(int a[],int n){
 for(int i = 1;i<n;i++){
     int j = i-1;

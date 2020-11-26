@@ -7,7 +7,7 @@ void selectionSort(int a[],int n){
 			for(int j = i+1;j<n;j++){
 				if(a[j] < a[minIndex]){
 					minIndex = j;
-				}
+                }
 			}
 			swap(a[i],a[minIndex]);
 		}
@@ -19,5 +19,5 @@ selectionSort(arr,n);
 
 for(int i = 0;i<n;i++){
 	cout<<arr[i];
-}
+    }
 }

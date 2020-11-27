@@ -3,15 +3,15 @@ using namespace std;
 //Time Complexity: O(n*2)
 
 void selectionSort(int a[],int n){
-		for(int i = 0;i<n-1;i++){
-			int minIndex = i;
-			for(int j = i+1;j<n;j++){
-				if(a[j] < a[minIndex]){
-					minIndex = j;
-                }
+	for(int i = 0;i<n-1;i++){
+		int minIndex = i;
+		for(int j = i+1;j<n;j++){
+			if(a[j] < a[minIndex]){
+				minIndex = j;
 			}
-			swap(a[i],a[minIndex]);
 		}
+		swap(a[i],a[minIndex]);
+	}
 }
 int main(){
 int arr[] = {5,1,7,9,3,4};

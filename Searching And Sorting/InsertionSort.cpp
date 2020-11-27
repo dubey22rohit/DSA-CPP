@@ -3,13 +3,13 @@ using namespace std;
 //Time Complexity: O(n*2)
 void insertionSort(int a[],int n){
 for(int i = 1;i<n;i++){
-    int j = i-1;
-    int num = a[i];
-    while(j>=0 && a[j] > num){
-        a[j+1] = a[j];
-        j--;
-    }
-    a[j+1] = num;
+int j = i-1;
+int num = a[i];
+while(j >=0 && a[j] > num){
+	a[j+1] = a[j];
+	j--;
+}
+a[j+1] = num;
 }
 }
 int main(){

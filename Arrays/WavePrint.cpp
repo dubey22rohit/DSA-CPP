@@ -1,15 +1,14 @@
 #include<iostream>
 using namespace std;
 void wavePrint(int a[][10],int R,int C){
-for(int j = 0;j<C;j++){
+	for(int j = 0;j<C;j++){
 		if(j&1){
-			//Odd Column
 			for(int i = R-1;i>=0;i--){
 				cout<<a[i][j]<<" ";
 			}
 		}else{
 			for(int i = 0;i<R;i++){
-				cout<<a[i][j]<<" "; 
+				cout<<a[i][j]<<" ";
 			}
 		}
 	}

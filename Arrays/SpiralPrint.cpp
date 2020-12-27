@@ -9,7 +9,7 @@ int r = C-1;
 while(t <=b && l <=r){
 if(flag == 0){
 for(int i = l;i<=r;i++){
-			cout<<a[t][i]<<" ";
+	cout<<a[t][i]<<" ";
 	}
 t++;
 }

@@ -11,7 +11,7 @@ for(int i = 0;i<n;i+=2){
 }
 }
 int main(){
-int a[] = {1,3,4,2,7,8};
+int a[] = {1,2,3,4,5};
 int n = sizeof(a)/sizeof(a[0]);
 waveSort(a,n);
 for(int i = 0;i<n;i++){
